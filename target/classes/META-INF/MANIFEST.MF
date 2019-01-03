@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Matthew_KK423
+Build-Jdk: 11.0.1
+Implementation-Title: rms-spring
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.mitrais
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/rms-spring
+Created-By: Maven Integration for Eclipse
+

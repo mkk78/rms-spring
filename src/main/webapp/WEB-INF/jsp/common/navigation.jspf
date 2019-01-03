@@ -1,0 +1,30 @@
+<div
+	class="mdl-layout mdl-js-layout mdl-layout--fixed-header demo-layout-transparent">
+	<header class="mdl-layout__header">
+		<div class="mdl-layout__header-row">
+			<!-- Title -->
+			<span class="mdl-layout-title"><a href="/">Title</a></span>
+			<!-- Add spacer, to align navigation to the right -->
+			<div class="mdl-layout-spacer"></div>
+			<!-- Navigation. We hide it in small screens. -->
+			<nav class="mdl-navigation">
+				
+				<a class="mdl-navigation__link mdl-navigation__link--current"
+					href="/list">Users</a>
+				<!-- Right aligned menu below button -->
+				Hi, ${loggedinUser.userName}
+				<button id="demo-menu-lower-right"
+					class="mdl-button mdl-js-button mdl-button--icon">
+					<i class="material-icons">more_vert</i>
+				</button>
+
+				<ul
+					class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+					for="demo-menu-lower-right">
+					<a href="update-user?id=${loggedinUser.id}"><li class="mdl-menu__item">Change Data</li></a>
+					<a href="logout"><li class="mdl-menu__item">Logout</li></a>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
